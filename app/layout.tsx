@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Mayank Taneja - Full Stack Developer | MERN Stack Expert",
+  title: "Mayank Taneja",
   description:
     "Portfolio of Mayank Taneja - Full Stack MERN Developer, Problem Solver, and CSE Student at Delhi Technological University. Specializing in React, Node.js, MongoDB, and modern web technologies.",
   keywords:
@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://mayanktaneja.dev",
-    title: "Mayank Taneja - Full Stack Developer",
+    title: "Mayank Taneja",
     description: "Full Stack MERN Developer and Problem Solver",
     siteName: "Mayank Taneja Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mayank Taneja - Full Stack Developer",
+    title: "Mayank Taneja",
     description: "Full Stack MERN Developer and Problem Solver",
     creator: "@mayanktaneja",
   },
