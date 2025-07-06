@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
-    "@fortawesome/fontawesome-free": "^6.7.2",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "latest",
     "@radix-ui/react-alert-dialog": "latest",
@@ -45,7 +44,6 @@
     "cmdk": "latest",
     "date-fns": "4.1.0",
     "embla-carousel-react": "latest",
-    "font-awesome": "^4.7.0",
     "framer-motion": "latest",
     "input-otp": "latest",
     "lucide-react": "^0.454.0",
