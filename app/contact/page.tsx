@@ -38,14 +38,14 @@ export default function Contact() {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/mayanktaneja",
-      href: "https://linkedin.com/in/mayanktaneja",
+      value: "https://www.linkedin.com/in/mayank-taneja-2651a4287/a",
+      href: "https://www.linkedin.com/in/mayank-taneja-2651a4287/",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/mayanktaneja",
-      href: "https://github.com/mayanktaneja",
+      value: "https://github.com/MayankTaneja-fnn",
+      href: "https://github.com/MayankTaneja-fnn",
     },
     {
       icon: MapPin,
@@ -164,8 +164,8 @@ export default function Contact() {
                 <h3 className="text-xl font-semibold text-white mb-4">Follow Me</h3>
                 <div className="flex gap-4">
                   {[
-                    { icon: Github, href: "https://github.com/mayanktaneja", label: "GitHub" },
-                    { icon: Linkedin, href: "https://linkedin.com/in/mayanktaneja", label: "LinkedIn" },
+                    { icon: Github, href: "https://github.com/MayankTaneja-fnn", label: "GitHub" },
+                    { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-taneja-2651a4287/", label: "LinkedIn" },
                     { icon: Mail, href: "mailto:tanejamayank21@gmail.com", label: "Email" },
                   ].map((social) => (
                     <motion.a

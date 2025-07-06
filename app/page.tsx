@@ -91,8 +91,8 @@ export default function Home() {
                 className="flex gap-6 pt-8"
               >
                 {[
-                  { icon: Github, href: "https://github.com/mayanktaneja", label: "GitHub" },
-                  { icon: Linkedin, href: "https://linkedin.com/in/mayanktaneja", label: "LinkedIn" },
+                  { icon: Github, href: "https://github.com/MayankTaneja-fnn", label: "GitHub" },
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-taneja-2651a4287/", label: "LinkedIn" },
                   { icon: Mail, href: "mailto:tanejamayank21@gmail.com", label: "Email" },
                 ].map((social) => (
                   <motion.a
@@ -186,7 +186,7 @@ export default function Home() {
               { icon: Code, label: "Projects", href: "/projects", color: "from-blue-500 to-cyan-500" },
               { icon: User, label: "Skills", href: "/skills", color: "from-purple-500 to-pink-500" },
               { icon: GraduationCap, label: "Education", href: "/education", color: "from-green-500 to-emerald-500" },
-              { icon: Briefcase, label: "Experience", href: "/experience", color: "from-orange-500 to-red-500" },
+              { icon: Briefcase, label: "Position", href: "/experience", color: "from-orange-500 to-red-500" },
               { icon: Award, label: "Certificates", href: "/certificates", color: "from-yellow-500 to-orange-500" },
               { icon: Trophy, label: "Achievements", href: "/achievements", color: "from-indigo-500 to-purple-500" },
             ].map((item, index) => (

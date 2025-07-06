@@ -6,6 +6,8 @@ import { useRef } from "react"
 import SidebarNavigation from "@/components/sidebar-navigation"
 import TopRightControls from "@/components/top-right-controls"
 
+
+
 export default function Education() {
   const containerRef = useRef(null)
   const { scrollYProgress } = useScroll({
@@ -47,7 +49,7 @@ export default function Education() {
   ]
 
   // Animate the car along the timeline - positioned above the dotted line
-  const carY = useTransform(scrollYProgress, [0, 1], [-20, 780])
+  const carY = useTransform(scrollYProgress, [0, 1], [0, 450])
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
@@ -81,15 +83,15 @@ export default function Education() {
             />
 
             {/* Animated Car - positioned above the dotted line and facing down */}
-            <motion.div
+            {/* <motion.div
               style={{ y: carY }}
               className="absolute left-1/2 transform -translate-x-1/2 z-20 text-4xl"
-              initial={{ scale: 0, rotate: 90 }}
-              animate={{ scale: 1, rotate: 180 }}
+              initial={{ scale: 0, rotate: 180 }}
+              animate={{ scale: 1, rotate: 90 }}
               transition={{ delay: 0.5, type: "spring" }}
             >
               🚗
-            </motion.div>
+            </motion.div> */}
 
             {/* Timeline Dots */}
             {educationData.map((item, index) => (

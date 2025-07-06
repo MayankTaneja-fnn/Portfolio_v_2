@@ -17,7 +17,7 @@ export default function Achievements() {
       icon: Trophy,
       color: "from-yellow-500 to-yellow-600",
       impact: "Mumbai 2025 Winner",
-      featured: true,
+      featured: false,
       location: "Mumbai",
     },
     {
@@ -29,7 +29,7 @@ export default function Achievements() {
       icon: Award,
       color: "from-blue-500 to-blue-600",
       impact: "Top Finalist",
-      featured: true,
+      featured: false,
       location: "National Level",
     },
     {
@@ -41,7 +41,7 @@ export default function Achievements() {
       icon: Star,
       color: "from-green-500 to-green-600",
       impact: "National Recognition",
-      featured: true,
+      featured: false,
       location: "India",
     },
     {

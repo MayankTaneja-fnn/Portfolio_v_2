@@ -27,7 +27,7 @@ export default function Certificates() {
       ],
       credentialId: "coursera-ml-spec-001",
       verifyLink: "https://coursera.org/verify/specialization/ml",
-      featured: true,
+      featured: false,
       image: "/ml-certificate.jpg",
       courses: [
         "Supervised Machine Learning: Regression and Classification",
@@ -44,7 +44,7 @@ export default function Certificates() {
       skills: ["JavaScript", "React.js", "Express.js", "MongoDB", "Node.js", "REST APIs", "Full Stack Development"],
       credentialId: "cn-mern-001",
       verifyLink: "https://codingninjas.com/verify/mern",
-      featured: true,
+      featured: false,
       image: "/mern-certificate.jpg",
       projects: "Built 5+ full-stack applications",
     },
@@ -57,7 +57,7 @@ export default function Certificates() {
       skills: ["Data Structures", "Algorithms", "Dynamic Programming", "Backtracking", "C++", "Problem Solving"],
       credentialId: "cn-dsa-001",
       verifyLink: "https://codingninjas.com/verify/dsa",
-      featured: true,
+      featured: false,
       image: "/dsa-certificate.jpg",
       achievements: [
         "Solved 1000+ problems across platforms",

@@ -81,7 +81,7 @@ export default function Experience() {
             />
 
             {/* Animated Airplane - positioned above the dotted line and facing down */}
-            <motion.div
+            {/* <motion.div
               style={{ y: airplaneY }}
               className="absolute left-1/2 transform -translate-x-1/2 z-20 text-4xl"
               initial={{ scale: 0, rotate: 180 }}
@@ -89,7 +89,7 @@ export default function Experience() {
               transition={{ delay: 0.5, type: "spring" }}
             >
               ✈️
-            </motion.div>
+            </motion.div> */}
 
             {/* Timeline Dots */}
             {experienceData.map((item, index) => (

@@ -92,3 +92,27 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+#timeline-divider {
+  position: absolute;
+  width: 0;
+  top: 10%;
+  left: 50%;
+  border: 1px dashed #0096fa6b;
+  height: 66%;
+  color: #433E3F;
+}
+
+#timeline-divider .timeline-traveller {
+  position: sticky;
+  top: 135px;
+  z-index: 2;
+}
+
+#timeline-divider i {
+  transform: rotate(90deg);
+  margin-top: -35px;
+  display: block;
+  color: #2857a4;
+}
