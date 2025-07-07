@@ -58,7 +58,7 @@ export default function Certificates() {
       credentialId: "cn-dsa-001",
       verifyLink: "https://codingninjas.com/verify/dsa",
       featured: false,
-      image: "/dsa-certificate.jpg",
+      image: "/dsa.png",
       achievements: [
         "Solved 1000+ problems across platforms",
         "Mastered Linked Lists, Trees, Graphs, Heaps",

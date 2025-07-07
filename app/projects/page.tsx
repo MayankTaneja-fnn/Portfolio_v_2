@@ -27,14 +27,53 @@ export default function Projects() {
         "Built with React Native for cross-platform compatibility",
         "Flask backend with Groq AI integration",
       ],
-      deployLink: "https://sahayak-demo.vercel.app",
-      githubLink: "https://github.com/mayanktaneja/sahayak",
+      deployLink: "https://drive.usercontent.google.com/download?id=1Vlwh2p0kpfphOaetGMjfxLWULUKSTJi9&export=download&authuser=0",
+      githubLink: "https://github.com/MayankTaneja-fnn/Sahayak",
       tech: ["React Native", "ExpressJS", "Flask", "Groq", "Firebase"],
       category: "Mobile App",
       featured: false,
-      duration: "Feb 2025 - May 2025",
+      duration: "May 2025 - June 2025",
       image: "/sahayak-project.jpg",
     },
+    {
+      title: "Vruksh Ekatra",
+      description:
+        "A web application that helps educators upload and manage content, and students to access and learn from it",
+      details: [
+        "User-friendly interface for content management and access and uses Airtable for content storage",
+        "Real-time collaboration tools for educators and students",
+        "Analytics dashboard for tracking student progress and helps NGO manage their content",
+        "3 level authentication system for secure access for admin, educator, and student",
+        "Responsive design for mobile and desktop access",
+      ],
+      deployLink: "https://vruksh-ekatra.vercel.app/",
+      githubLink: "https://github.com/MayankTaneja-fnn/Vruksh_Ekatra",
+      tech: ["TypeScript", "NextJS", "ExpressJS", "AirTable", "Tailwind CSS", "Gemini"],
+      category: "Web Application",
+      featured: false,
+      duration: "April 2025 - May 2025",
+      image: "/vruksh.png",
+    },
+    {
+      title: "Ishanya Dashboard",
+      description:
+        "A web application for managing details of educators and students for NGO.",
+      details: [
+        "The admin can add, edit, and delete details of educators and students and assign tasks to educators",
+        "Educators can view their assigned tasks and update their status",
+        "Generate progress report for each student",
+        "Parents can login and see daily progress and updates on their students given by educators.",
+        "Discussion page and kanban board for teachers and feedback page for parents",
+      ],
+      deployLink: "https://ishanya-dashboard-hub-82-54.vercel.app/",
+      githubLink: "https://github.com/MayankTaneja-fnn/ishanya-dashboard-hub-82-54",
+      tech: ["TypeScript", "ReactJS", "ExpressJS", "SupaBase", "Vite", "Tailwind CSS", "Google Cloud Platform", "LangChain"],
+      category: "AI Platform",
+      featured: false,
+      duration: "Jan 2025 - March 2025",
+      image: "/ishanya.png",
+    }
+    ,
     {
       title: "DTU Website - Extension & Field Outreach",
       description:
@@ -46,13 +85,13 @@ export default function Projects() {
         "Responsive design with modern UI/UX",
         "Admin dashboard for content management",
       ],
-      deployLink: "https://dtu-extension.vercel.app",
-      githubLink: "https://github.com/mayanktaneja/dtu-website",
+      deployLink: "https://dtu-sjva.vercel.app/",
+      githubLink: "https://github.com/MayankTaneja-fnn/DTU",
       tech: ["ReactJS", "ExpressJS", "MongoDB", "JavaScript", "Tailwind CSS"],
       category: "Web Application",
       featured: false,
       duration: "Sept 2024 - Dec 2024",
-      image: "/dtu-website.jpg",
+      image: "/extension_outreach.png",
     },
     {
       title: "INT-O-VIEW - AI Interview Platform",
@@ -65,13 +104,34 @@ export default function Projects() {
         "TypeScript for enhanced code reliability",
         "Integration with ChatGPT-4 and Groq APIs",
       ],
-      deployLink: "https://int-o-view.vercel.app",
-      githubLink: "https://github.com/mayanktaneja/int-o-view",
+      deployLink: "https://int-o-view.vercel.app/",
+      githubLink: "https://github.com/MayankTaneja-fnn/Int-O-View",
       tech: ["TypeScript", "ReactJS", "ExpressJS", "MongoDB", "Vite", "Tailwind CSS", "Groq", "ChatGPT-4"],
       category: "AI Platform",
       featured: false,
       duration: "June 2024 - Aug 2024",
-      image: "/interview-platform.jpg",
+      image: "/interview-platform.png",
+    },
+    
+    
+    {
+      title: "TripOn",
+      description:
+        "A website that provides details about various places to visit in India, including popular tourist spots and hidden gems",
+      details: [
+        "Made on MVC architecture using ejs",
+        "Helps users to connect to local of that place to know more about the place",
+        "Gives details about the place like best time to visit, how to reach, etc.",
+        "Helps in making customized travel plans",
+        "Provides taxi fares and hotel fares for the trip and various restaurants and complete itinerary.",
+      ],
+      deployLink: "https://tripon-oodg.onrender.com/",
+      githubLink: "https://github.com/MayankTaneja-fnn/TRIPON",
+      tech: ["JavaScript", "EJS", "ExpressJS", "MongoDB"],
+      category: "Web Application",
+      featured: false,
+      duration: "Feb 2024 - May 2024",
+      image: "/tripon.png",
     },
   ]
 
@@ -154,12 +214,12 @@ export default function Projects() {
                       <div className="grid lg:grid-cols-3 gap-6">
                         {/* Project Image */}
                         <div className="lg:col-span-1">
-                          <div className="relative h-48 lg:h-full rounded-2xl overflow-hidden">
+                          <div className="relative h-48 lg:h-full rounded-2xl overflow-hidden bg-white flex items-center justify-center">
                             <Image
                               src={project.image || "/placeholder.svg"}
                               alt={project.title}
                               fill
-                              className="object-cover group-hover:scale-105 transition-transform duration-300"
+                              className="object-contain group-hover:scale-105 transition-transform duration-300"
                             />
                           </div>
                         </div>

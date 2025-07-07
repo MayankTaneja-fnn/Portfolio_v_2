@@ -6,8 +6,6 @@ import { useRef } from "react"
 import SidebarNavigation from "@/components/sidebar-navigation"
 import TopRightControls from "@/components/top-right-controls"
 
-
-
 export default function Education() {
   const containerRef = useRef(null)
   const { scrollYProgress } = useScroll({
@@ -21,7 +19,7 @@ export default function Education() {
       degree: "Secondary School",
       institution: "Little Angels School, Sonipat",
       duration: "04/2011 - 03/2021",
-      logo: "🏫",
+      image: "/lasss.png", // Replace with your actual image path
       side: "left",
       description:
         "Completed secondary education with strong foundation in science and mathematics. Developed early interest in technology and problem-solving.",
@@ -31,7 +29,7 @@ export default function Education() {
       degree: "Higher Secondary School",
       institution: "Sant Gyaneshwar School, Alipur",
       duration: "04/2021 - 04/2023",
-      logo: "📚",
+      image: "/sant gyaneshwar.jpeg", // Replace with your actual image path
       side: "right",
       description:
         "Specialized in Science stream (PCM with Computer Science). Achieved 90.6% in board examinations with excellence in Mathematics and Computer Science.",
@@ -41,7 +39,7 @@ export default function Education() {
       degree: "Bachelors of Technology Computer Science",
       institution: "Delhi Technological University",
       duration: "08/2023 - 05/2027",
-      logo: "🎓",
+      image: "/dtu.jpeg", // Replace with your actual image path
       side: "left",
       description:
         "Currently pursuing B.Tech in Computer Science & Engineering with CGPA of 8.93/10. Active in hackathons, coding competitions, and technical societies.",
@@ -147,7 +145,11 @@ function TimelineItem({ item, index }: { item: any; index: number }) {
           className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-slate-700"
         >
           <div className={`flex items-center mb-6 ${isLeft ? "justify-end" : "justify-start"}`}>
-            <div className="text-5xl mr-4 filter drop-shadow-lg">{item.logo}</div>
+            <img
+              src={item.image}
+              alt={item.degree}
+              className="w-16 h-16 object-cover rounded-full mr-4 border-2 border-blue-500 shadow-md"
+            />
             <div className={isLeft ? "text-right" : "text-left"}>
               <h3 className="text-xl font-bold text-blue-600 mb-2">{item.degree}</h3>
               <p className="text-orange-500 font-semibold mb-1">{item.institution}</p>

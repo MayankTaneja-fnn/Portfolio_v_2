@@ -19,7 +19,7 @@ export default function Experience() {
       position: "Corporate Executive",
       company: "E-Cell DTU",
       duration: "09/2023 - Present",
-      logo: "🚀",
+      image: "/ecell.jpeg", // Replace with your actual image path
       side: "left",
       description:
         "For 17 years, E-Cell DTU has championed an entrepreneurial ethos, guiding students with the expertise of venture capitalists and industry leaders. Our mission is to nurture 'CREATORS' transcending traditional education by promoting values of productivity, innovation, and independent thinking.",
@@ -29,7 +29,7 @@ export default function Experience() {
       position: "Member",
       company: "Business Bulls, DTU",
       duration: "09/2023 - Present",
-      logo: "💼",
+      image: "/bb.jpeg", // Replace with your actual image path
       side: "right",
       description:
         "Business Bulls is DTU's powerhouse for aspiring entrepreneurs, innovators, and changemakers! At Business Bulls, we don't just dream big—we make it happen. From building startups and hosting competitions to providing mentorship and networking opportunities.",
@@ -39,7 +39,7 @@ export default function Experience() {
       position: "Web Developer",
       company: "GDSC DTU",
       duration: "10/2024 - Present",
-      logo: "🌐",
+      image: "/gdsc.jpeg", // Replace with your actual image path
       side: "left",
       description:
         "Google Developer Student Club (GDSC) is a Google Developers program for university students to learn mobile and web development skills. The club is intended as a space for students to try out new ideas and collaborate to solve development problems.",
@@ -145,7 +145,7 @@ function TimelineItem({ item, index }: { item: any; index: number }) {
           className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-slate-700"
         >
           <div className={`flex items-center mb-6 ${isLeft ? "justify-end" : "justify-start"}`}>
-            <div className="text-5xl mr-4 filter drop-shadow-lg">{item.logo}</div>
+            <img src={item.image} alt={item.position} className="w-16 h-16 object-cover rounded-full mr-4 border-2 border-blue-500 shadow-md" />
             <div className={isLeft ? "text-right" : "text-left"}>
               <h3 className="text-xl font-bold text-blue-600 mb-2">{item.position}</h3>
               <p className="text-orange-500 font-semibold mb-1">{item.company}</p>
