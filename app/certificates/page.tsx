@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Award, Calendar, Building, ExternalLink, Star } from "lucide-react"
+import { Award, Calendar, Building, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import SidebarNavigation from "@/components/sidebar-navigation"
@@ -26,9 +26,9 @@ export default function Certificates() {
         "Unsupervised Learning",
       ],
       credentialId: "coursera-ml-spec-001",
-      verifyLink: "https://coursera.org/verify/specialization/ml",
+      verifyLink: "https://www.coursera.org/account/accomplishments/specialization/K35Y6JFP9E6K",
       featured: false,
-      image: "/ml-certificate.jpg",
+      image: "/ml-certificate.png",
       courses: [
         "Supervised Machine Learning: Regression and Classification",
         "Advanced Learning Algorithms",
@@ -43,9 +43,9 @@ export default function Certificates() {
         "Complete MERN Stack development course covering JavaScript, Express.js, MongoDB, and React.js with hands-on projects",
       skills: ["JavaScript", "React.js", "Express.js", "MongoDB", "Node.js", "REST APIs", "Full Stack Development"],
       credentialId: "cn-mern-001",
-      verifyLink: "https://codingninjas.com/verify/mern",
+      verifyLink: "https://certificate.codingninjas.com/view/200644a90a149213",
       featured: false,
-      image: "/mern-certificate.jpg",
+      image: "/react.png",
       projects: "Built 5+ full-stack applications",
     },
     {
@@ -56,7 +56,7 @@ export default function Certificates() {
         "Comprehensive DSA course covering various data structures and algorithmic techniques with 1000+ problem solving",
       skills: ["Data Structures", "Algorithms", "Dynamic Programming", "Backtracking", "C++", "Problem Solving"],
       credentialId: "cn-dsa-001",
-      verifyLink: "https://codingninjas.com/verify/dsa",
+      verifyLink: "https://certificate.codingninjas.com/view/db2a9d44b7273014",
       featured: false,
       image: "/dsa.png",
       achievements: [
@@ -64,6 +64,110 @@ export default function Certificates() {
         "Mastered Linked Lists, Trees, Graphs, Heaps",
         "Advanced techniques: DP, Backtracking",
       ],
+    },
+    // Backend Completion
+    {
+      title: "Backend Development Completion",
+      issuer: "Coding Ninjas",
+      date: "Feb 2024 - May 2024",
+      description:
+        "Comprehensive backend development course covering Node.js, Express.js, MongoDB, REST APIs, and authentication.",
+      skills: ["Node.js", "Express.js", "MongoDB", "REST APIs", "Authentication","MVC Architecture", "Backend Architecture"],
+      featured: false,
+      image: "/backend_cn.png",
+      projects: "Built scalable backend APIs and authentication systems.",
+    },
+    // Frontend Completion
+    {
+      title: "Frontend Development Completion",
+      issuer: "Coding Ninjas",
+      date: "Jan 2024 - Mar 2024",
+      description:
+        "In-depth frontend course covering HTML, CSS, JavaScript, React.js, and responsive web design.",
+      skills: ["HTML", "CSS", "JavaScript", "React.js", "Responsive Design", "Frontend Architecture"],
+      featured: false,
+      image: "/frontend_cn.png",
+      projects: "Developed multiple responsive web applications.",
+    },
+    // Intro to C++
+    {
+      title: "Introduction to C++",
+      issuer: "Coding Ninjas",
+      date: "Aug 2023 - Oct 2023",
+      description:
+        "Fundamental C++ programming course covering syntax, OOP, STL, and problem solving.",
+      skills: ["C++", "OOP", "STL", "Problem Solving", "Programming Basics"],
+      featured: false,
+      image: "/into-c++.png",
+      achievements: ["Completed 50+ coding challenges", "Mastered C++ basics and OOP concepts"],
+    },
+    // Hackathons
+    {
+      title: "JPMC Code for Good Hackathon Winner",
+      issuer: "J.P. Morgan & Chase, Mumbai",
+      date: "2025",
+      description:
+        "24-hour hackathon in Mumbai. Developed a fintech solution and won the competition.",
+      skills: ["Fintech", "Teamwork", "Rapid Prototyping", "Presentation"],
+      featured: false,
+      image: "/JPMC CFG.jpg",
+      achievements: ["Winner, 24-hour hackathon, Mumbai 2025"],
+    },
+    {
+      title: "Morgan Stanley Code to Give Finalist",
+      issuer: "Morgan Stanley",
+      date: "2025",
+      description:
+        "7-day virtual hackathon. Built a social impact project and reached the finals.",
+      skills: ["Social Impact", "Full Stack Development", "Pitching", "Collaboration"],
+      featured: false,
+      image: "/ms_ctg.png",
+      achievements: ["Finalist, 7-day virtual hackathon, 2025"],
+    },
+    {
+      title: "Smart India Hackathon Nationalist",
+      issuer: "SIH 2024",
+      date: "2024",
+      description:
+        "National-level hackathon. Developed a government solution and reached the national stage.",
+      skills: ["Government Solutions", "Innovation", "Teamwork"],
+      featured: false,
+      image: "/sih.png",
+      achievements: ["Nationalist, SIH 2024"],
+    },
+    {
+      title: "BrainWave Hackathon Participant",
+      issuer: "DTU, Delhi",
+      date: "2024",
+      description:
+        "24-hour hackathon at DTU. Built a health-tech prototype in a team.",
+      skills: ["Health-Tech", "Prototyping", "Teamwork"],
+      featured: false,
+      image: "/brainwave.png",
+      achievements: ["Participant, BrainWave 2024, DTU"],
+    },
+    // Social Work
+    {
+      title: "Shubhakshika NGO Volunteer",
+      issuer: "Shubhakshika NGO",
+      date: "2023 - 2024",
+      description:
+        "Volunteered for Shubhakshika NGO, contributing to education and social welfare initiatives.",
+      skills: ["Volunteering", "Education", "Social Welfare"],
+      featured: false,
+      image: "/shubhakshika.png",
+      achievements: ["Organized educational camps", "Community outreach"],
+    },
+    {
+      title: "NSS Volunteer",
+      issuer: "National Service Scheme (NSS)",
+      date: "2023 - 2024",
+      description:
+        "Active member of NSS, participated in various social service and awareness programs.",
+      skills: ["Social Service", "Awareness Campaigns", "Community Work"],
+      featured: false,
+      image: "/nsss.png",
+      achievements: ["Participated in cleanliness drives", "Organized awareness campaigns"],
     },
   ]
 
@@ -110,50 +214,38 @@ export default function Certificates() {
                     </div>
                   )}
 
-                  <div className="grid lg:grid-cols-4 gap-6">
-                    {/* Certificate Image */}
-                    <div className="lg:col-span-1">
-                      <div className="relative h-48 lg:h-full rounded-2xl overflow-hidden">
+                  {/* 50-50 Split Certificate Layout */}
+                  <div className="flex flex-col lg:flex-row gap-6">
+                    {/* Certificate Image - 50% width on large screens */}
+                    <div className="w-full lg:w-1/2 flex items-center justify-center">
+                      <div className="relative w-full h-48 lg:h-80 rounded-2xl overflow-hidden bg-white flex items-center justify-center">
                         <Image
                           src={cert.image || "/placeholder.svg"}
                           alt={cert.title}
                           fill
-                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          className="object-contain group-hover:scale-105 transition-transform duration-300"
                         />
                       </div>
                     </div>
-
-                    {/* Certificate Content */}
-                    <div className="lg:col-span-3 space-y-4">
-                      <div className="flex items-start justify-between">
-                        <div className="flex items-start space-x-4">
-                          <div className="p-4 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl group-hover:scale-110 transition-transform duration-300 glow-effect">
-                            <Award className="w-8 h-8 text-white" />
+                    {/* Certificate Content - 50% width on large screens */}
+                    <div className="w-full lg:w-1/2 space-y-4 flex flex-col justify-center">
+                      <div className="flex items-start space-x-4">
+                        <div className="p-4 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl group-hover:scale-110 transition-transform duration-300 glow-effect">
+                          <Award className="w-8 h-8 text-white" />
+                        </div>
+                        <div>
+                          <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-green-400 transition-colors">
+                            {cert.title}
+                          </h3>
+                          <div className="flex items-center text-green-400 mb-2">
+                            <Building className="w-4 h-4 mr-2" />
+                            <span className="font-semibold">{cert.issuer}</span>
                           </div>
-                          <div>
-                            <h3 className="text-2xl font-bold text-white mb-2 group-hover:text-green-400 transition-colors">
-                              {cert.title}
-                            </h3>
-                            <div className="flex items-center text-green-400 mb-2">
-                              <Building className="w-4 h-4 mr-2" />
-                              <span className="font-semibold">{cert.issuer}</span>
-                            </div>
-                            <div className="flex items-center text-gray-400 text-sm">
-                              <Calendar className="w-4 h-4 mr-2" />
-                              <span>{cert.date}</span>
-                            </div>
+                          <div className="flex items-center text-gray-400 text-sm">
+                            <Calendar className="w-4 h-4 mr-2" />
+                            <span>{cert.date}</span>
                           </div>
                         </div>
-                        <Button
-                          asChild
-                          size="sm"
-                          className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white rounded-full"
-                        >
-                          <a href={cert.verifyLink} target="_blank" rel="noopener noreferrer">
-                            <ExternalLink className="w-4 h-4 mr-2" />
-                            Verify
-                          </a>
-                        </Button>
                       </div>
 
                       <p className="text-gray-300 leading-relaxed">{cert.description}</p>
@@ -206,10 +298,6 @@ export default function Certificates() {
                           ))}
                         </div>
                       </div>
-
-                      <div className="flex items-center justify-between pt-4 border-t border-slate-700/50">
-                        <div className="text-xs text-gray-400">ID: {cert.credentialId}</div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -226,24 +314,24 @@ export default function Certificates() {
           >
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold gradient-text mb-4">Certification Overview</h2>
-              <p className="text-gray-400">Continuous learning and professional development</p>
+              <p className="text-gray-400">Continuous learning, hackathons, and social impact</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300">
-                <div className="text-3xl font-bold gradient-text mb-2">3</div>
+                <div className="text-3xl font-bold gradient-text mb-2">{certificates.length}</div>
                 <div className="text-gray-400 text-sm">Total Certificates</div>
               </div>
               <div className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300">
-                <div className="text-3xl font-bold text-green-400 mb-2">1000+</div>
-                <div className="text-gray-400 text-sm">Problems Solved</div>
+                <div className="text-3xl font-bold text-green-400 mb-2">4</div>
+                <div className="text-gray-400 text-sm">Hackathons</div>
               </div>
               <div className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300">
-                <div className="text-3xl font-bold text-blue-400 mb-2">15+</div>
-                <div className="text-gray-400 text-sm">Skills Mastered</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">2</div>
+                <div className="text-gray-400 text-sm">Social Work</div>
               </div>
               <div className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300">
-                <div className="text-3xl font-bold text-purple-400 mb-2">2024</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">2025</div>
                 <div className="text-gray-400 text-sm">Latest Year</div>
               </div>
             </div>

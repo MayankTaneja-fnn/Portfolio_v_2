@@ -67,6 +67,54 @@ export default function Achievements() {
       featured: false,
       platforms: ["LeetCode", "Codeforces", "CodeChef", "Coding Studio"],
     },
+    {
+      title: "BrainWave Hackathon Participant",
+      description:
+        "Participated in BrainWave 2024, a 24-hour hackathon at DTU, building a health-tech prototype in a team.",
+      date: "2024",
+      category: "Competition",
+      icon: Star,
+      color: "from-pink-500 to-pink-600",
+      impact: "DTU 24hr Hackathon",
+      featured: false,
+      location: "DTU, Delhi",
+    },
+    {
+      title: "Shubhakshika NGO Volunteer",
+      description:
+        "Volunteered for Shubhakshika NGO, contributing to education and social welfare initiatives.",
+      date: "2023 - 2024",
+      category: "Social Work",
+      icon: Award,
+      color: "from-red-500 to-red-600",
+      impact: "Community Outreach",
+      featured: false,
+      location: "Delhi NCR",
+    },
+    {
+      title: "NSS Volunteer",
+      description:
+        "Active member of NSS, participated in various social service and awareness programs.",
+      date: "2023 - 2024",
+      category: "Social Work",
+      icon: Award,
+      color: "from-blue-500 to-blue-700",
+      impact: "Awareness Drives",
+      featured: false,
+      location: "Delhi Technological University",
+    },
+    {
+      title: "AIR 4293 in JEE Mains 2023",
+      description:
+        "Secured an All India Rank of 4293 in JEE Mains 2023, among more than 1 million candidates.",
+      date: "2023",
+      category: "Academic",
+      icon: Star,
+      color: "from-indigo-500 to-indigo-700",
+      impact: "Top 0.4% Nationwide",
+      featured: false,
+      location: "India",
+    },
   ]
 
   return (
@@ -187,29 +235,29 @@ export default function Achievements() {
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300"
               >
-                <div className="text-3xl font-bold text-yellow-400 mb-2">5</div>
+                <div className="text-3xl font-bold text-yellow-400 mb-2">{achievements.length}</div>
                 <div className="text-gray-400 text-sm">Total Achievements</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300"
               >
-                <div className="text-3xl font-bold text-green-400 mb-2">3</div>
-                <div className="text-gray-400 text-sm">Hackathon Wins/Finals</div>
+                <div className="text-3xl font-bold text-green-400 mb-2">4</div>
+                <div className="text-gray-400 text-sm">Hackathons</div>
               </motion.div>
               <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300"
               >
-                <div className="text-3xl font-bold text-blue-400 mb-2">8.93</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">2</div>
+                <div className="text-gray-400 text-sm">Social Work</div>
+              </motion.div>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300"
+              >
+                <div className="text-3xl font-bold text-purple-400 mb-2">8.93</div>
                 <div className="text-gray-400 text-sm">CGPA at DTU</div>
-              </motion.div>
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                className="text-center p-6 rounded-2xl bg-slate-800/30 blur-backdrop hover:bg-slate-800/50 transition-all duration-300"
-              >
-                <div className="text-3xl font-bold text-purple-400 mb-2">1000+</div>
-                <div className="text-gray-400 text-sm">DSA Problems</div>
               </motion.div>
             </div>
           </motion.div>
