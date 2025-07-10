@@ -7,8 +7,9 @@ import { ThemeToggle } from "@/components/theme-toggle"
 export default function TopRightControls() {
   const handleDownloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/Mayank_Taneja_Resume_v3.pdf"
-    link.download = "Mayank_Taneja_Resume_v3.pdf"
+    link.href = "https://drive.google.com/uc?export=download&id=1L4yVIVoXznwcu0cNWTjYEceKYPM2SIqy"
+    // link.download = "Mayank_Taneja_Resume_v3.pdf"
+    link.target="_blank";
     link.click()
   }
 
