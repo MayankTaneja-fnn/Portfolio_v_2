@@ -40,6 +40,12 @@ Simulated recruitment process using advanced LLMs (GPT-4 & Groq).
 - **Tech**: TypeScript, React, MongoDB, Groq, ChatGPT-4.
 - [Live Demo](https://int-o-view.vercel.app/)
 
+### 📊 EO Portal
+A comprehensive management system for educational organizations.
+- **Tech**: React, Node.js, Express, MongoDB, Tailwind CSS.
+- [Live Demo](https://dtu-sjva.vercel.app/)
+- [GitHub Repository](https://github.com/MayankTaneja-fnn/EO-Portal)
+
 ---
 
 ## 📦 Features
