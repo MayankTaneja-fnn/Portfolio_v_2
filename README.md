@@ -1,30 +1,42 @@
-# Frontend portfolio website
+# 🧑‍💻 Mayank Taneja — Developer Portfolio (Portfolio_v_2)
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+🔗 **Live Website:** https://mayanktaneja.vercel.app/  
+📂 **Repository:** https://github.com/MayankTaneja-fnn/Portfolio_v_2
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/mayanktaneja-fnns-projects/v0-frontend-portfolio-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/BcJmrllHnTL)
+A modern, responsive, and fast personal portfolio website built to showcase my projects, skills, and experience as a **Full Stack Developer & ML Enthusiast**.
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🚀 Features
 
-## Deployment
+- ⚡ Built with **Next.js (App Router)**
+- 🎨 Styled using **Tailwind CSS**
+- 📱 Fully responsive across all devices
+- 🌙 Clean and modern UI design
+- 🧩 Reusable React components
+- 🚀 Fast performance and SEO optimized
+- 🌐 Deployed on **Vercel**
+- 🛠 Easy to customize content
 
-Your project is live at:
+---
 
-**[https://vercel.com/mayanktaneja-fnns-projects/v0-frontend-portfolio-website](https://vercel.com/mayanktaneja-fnns-projects/v0-frontend-portfolio-website)**
+## 🛠️ Tech Stack
 
-## Build your app
+| Technology | Purpose |
+|------------|---------|
+| Next.js | React Framework for SSR & Routing |
+| React.js | UI Development |
+| Tailwind CSS | Styling |
+| TypeScript | Type Safety |
+| Vercel | Deployment |
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/BcJmrllHnTL](https://v0.dev/chat/projects/BcJmrllHnTL)**
+## 📁 Project Structure
 
-## How It Works
+<img width="582" height="379" alt="image" src="https://github.com/user-attachments/assets/f7095d41-a715-46e5-bb05-bb5a86d76391" />
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+---
+
+
